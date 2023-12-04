@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CourseList from "./components/CourseList";
 import "./index.css";
-import CourseDetail from "./components/courseDetail";
+import CourseDetail from "./components/CourseDetail";
 import StudentDashboard from "./components/StudentDashboard";
 import Navbar from "./components/Navbar";
 // import { useSelector, useDispatch } from "react-redux";

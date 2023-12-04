@@ -1,20 +1,13 @@
+/* eslint-disable react/prop-types */
 import { Link, useNavigate } from "react-router-dom";
 import { CiStar } from "react-icons/ci";
 import { FaStar } from "react-icons/fa";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { dislikeCourse, likeCourse } from "../redux/details";
-import {
-  getDatabase,
-  get,
-  ref,
-  onValue,
-  child,
-  runTransaction,
-} from "firebase/database";
+import { getDatabase, ref, child, runTransaction } from "firebase/database";
 import { app } from "../assets/firebaseConfig";
 
-// eslint-disable-next-line react/prop-types
 const TutorialsCard = ({ course }) => {
   const Database = getDatabase(app);
   const navigate = useNavigate();

@@ -1,5 +1,4 @@
-import React from "react";
-
+/* eslint-disable react/prop-types */
 const CourseCard = ({ course, handleMarkComplete }) => {
   return (
     <div className=" w-full p-4">
