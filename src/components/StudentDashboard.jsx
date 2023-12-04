@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { completeCourse, enrollCourse } from "../redux/details";
+/* eslint-disable react/prop-types */
+import { completeCourse } from "../redux/details";
 import { useDispatch, useSelector } from "react-redux";
 
 import CourseCard from "./CourseCard";

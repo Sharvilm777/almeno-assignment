@@ -1,8 +1,8 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import TutorialsCard from "./TutorialsCard";
-// import courseDetails from "../assets/courseData";
 import { useDispatch, useSelector } from "react-redux";
-import { getDatabase, set, onValue, get, ref, child } from "firebase/database";
+import { getDatabase, onValue, get, ref, child } from "firebase/database";
 import { app } from "../assets/firebaseConfig";
 import { getDetails } from "../redux/details";
 

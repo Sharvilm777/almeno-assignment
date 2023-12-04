@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-import courseDetails from "../assets/courseData";
 import { useState } from "react";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 import { enrollCourse } from "../redux/details";
@@ -11,6 +10,7 @@ const CourseDetail = () => {
   const { slug } = useParams();
   const dispatch = useDispatch();
   const enorlledCourses = useSelector((state) => state.courses.enrolledCourses);
+  const courseDetails = useSelector((state) => state.courses.courseDetails);
   const [isSyllabusOpen, setIsSyllabusOpen] = useState(false);
   const course = courseDetails.find((course) => course.slug === slug);
 
