@@ -1,12 +1,12 @@
 import { initializeApp } from "firebase/app"
 const firebaseConfig = {
-    apiKey: "AIzaSyBbM8SBFdX1yoiiBwVzVOGijJmDtV0SPN0",
-    authDomain: "almeno-assignment-20263.firebaseapp.com",
-    databaseURL: "https://almeno-assignment-20263-default-rtdb.firebaseio.com",
-    projectId: "almeno-assignment-20263",
-    storageBucket: "almeno-assignment-20263.appspot.com",
-    messagingSenderId: "407556379070",
-    appId: "1:407556379070:web:c5794db47ac3b36d9469ef",
-    measurementId: "G-YRKY6LT7VB"
+    apiKey: import.meta.env.VITE_API_KEY,
+    authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+    databaseURL: import.meta.env.VITE_DB_URL,
+    projectId: import.meta.env.VITE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_APP_ID,
+    measurementId: import.meta.env.VITE_MEASUREMENT_ID
 };
 export const app = initializeApp(firebaseConfig);
