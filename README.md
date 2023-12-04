@@ -1,5 +1,5 @@
 
-# Almeno Assignment Project
+# Alemeno Assignment Project
 
 ## Local Setup
 
