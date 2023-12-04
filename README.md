@@ -1,8 +1,71 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Almeno Assignment Project
 
-Currently, two official plugins are available:
+## Local Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Follow these steps to set up the project locally:
+
+1. **Clone the Repository:**
+
+
+```sh
+git clone https://github.com/Sharvilm777/almeno-assignment.git
+```
+
+2. **Navigate to Project Directory:**
+
+
+```sh
+
+ cd almeno-assignment
+```
+
+
+3. **Install Dependencies:**
+
+
+```sh 
+npm install
+```
+
+4. **Run the Development Server:**
+
+
+```sh
+npm run dev
+```
+
+
+5. **Open in Browser:**
+
+
+Visit **http://localhost:5173** in your browser.
+
+
+
+### Project Structure
+
+
+**src/**: Contains the source code.
+
+
+**public/**: Contains static assets.
+
+
+
+### Scripts
+
+-Start the development server
+```sh
+npm run dev 
+```
+
+-Build for production.
+```sh
+npm run build 
+```
+
+-Preview the production build.
+```sh
+npm run serve 
+```
